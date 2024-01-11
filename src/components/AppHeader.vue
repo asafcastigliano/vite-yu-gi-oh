@@ -19,9 +19,10 @@ export default {
     </header>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
     header{
         padding: 30px 0px;
+        background-color: white;
 
         img{
             width: 100px;

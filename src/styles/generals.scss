@@ -11,3 +11,14 @@
 body{
     background-color: orange;
 }
+
+.my-container{
+    background-color: white;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.my-row{
+    width: 100px;
+    display: flex;
+}
