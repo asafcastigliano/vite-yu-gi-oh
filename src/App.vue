@@ -1,13 +1,23 @@
-<script setup>
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap';
-import { defineConfig } from 'vite';
-import ViteSassPlugin from 'vite-plugin-sass';
+<script>
+
+import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
+
+export default {
+  components:{
+    AppHeader,
+    AppMain
+  }
+}
 
 </script>
 
 <template>
+  <div>
+    <AppHeader/>
+  </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
+@import './styles/generals.scss';
 </style>
